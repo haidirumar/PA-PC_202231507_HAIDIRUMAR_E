@@ -1,6 +1,6 @@
 # PA-PC_202231507_HAIDIRUMAR_E
 
-## Penjelasan Project Akhir (UAS) Haidir Umar Pengolahan Citra Digital 
+## Penjelasan Dari Project Akhir (UAS) Haidir Umar Pengolahan Citra Digital 
 
 ### 1. Fungsi untuk Menampilkan Gambar
 
@@ -125,3 +125,4 @@ Penjelasan Dari Kodingan Diatas:
 judul masing-masing.
 
 ![App Screenshot](HASIL.png)
+                                                                                               TERIMAKASIH
