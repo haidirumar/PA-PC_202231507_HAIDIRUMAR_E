@@ -33,7 +33,7 @@ image = cv2.imread('HAIDIRUMAR.jpg')
 - Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
 - Library yang Digunakan: OpenCV ( cv2 ).
 
-![App Screenshot](HAIDIRUMAR.png)
+(HAIDIRUMAR.png)
 
 
 ### 3. Menyimpan Citra Asli:
@@ -71,7 +71,7 @@ resized = cv2.resize(original, (int(w * 0.2), int(h * 0.4)))
 - Tujuan: Mengubah ukuran gambar menjadi 20% dari lebar asli dan 40% dari tinggi asli.
 - Proses: Menggunakan cv2.resize untuk mengubah ukuran gambar.
 
-![App Screenshot](.screenshoot/resize.jpg)
+(Resized.png)
 
 ### 6. Memotong Gambar:
 Penjelasan:
@@ -80,7 +80,7 @@ cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
 
 - Tujuan: Memotong bagian tengah gambar.• Proses: Menggunakan slicing untuk mengambil bagian gambar dari 20% hingga 80% dari tinggi dan lebar asli.
 
-![App Screenshot](.screenshoot/cropped.jpg)
+(cropped.png)
 
 ### 7. Membalik Gambar:
 Penjelasan Kodingan:
@@ -89,7 +89,7 @@ flipped = cv2.flip(original, 1)
 - Tujuan: Membalik gambar secara horizontal.
 - Proses: Menggunakan cv2.flip dengan parameter 1 untuk flip horizontal.
 
-![App Screenshot](.screenshoot/flip.jpg)
+(Fliped.png)
 
 ### 8. Mentranslasi Gambar:
 Penjelasan Kodingan:
@@ -104,7 +104,7 @@ translated = cv2.warpAffine(original, translation_matrix, (w, h))
 2. Membuat matriks translasi.
 3. Menerapkan transformasi translasi menggunakan cv2.warpAffine.
 
-![App Screenshot](.screenshoot/translated.jpg)
+(Translated.png)
 
 
 ### 9. Menampilkan Semua Gambar:
@@ -118,4 +118,4 @@ show_images(images, titles)
 - Proses: Memanggil fungsi show_images untuk menampilkan gambar-gambar tersebut dengan
 judul masing-masing.
 
-![App Screenshot](.screenshoot/all.jpg)
+(download (1).png)
