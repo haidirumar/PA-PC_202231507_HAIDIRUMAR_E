@@ -19,7 +19,8 @@ Penjelasan Dari Kodingan Diatas:
 1. images : Daftar gambar yang akan ditampilkan.
 2. titles : Daftar judul untuk setiap gambar.
 
-- Tujuan: Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure menggunakan Matplotlib.
+- Tujuan:
+-  Fungsi ini bertujuan untuk menampilkan beberapa gambar dalam satu figure menggunakan Matplotlib.
 - Proses:
 1. Mengatur ukuran figure menjadi 20x20.
 2. Menggunakan subplot untuk mengatur tata letak gambar dalam grid 2x3.
@@ -53,7 +54,8 @@ rotated = cv2.warpAffine(original, matrix, (w, h))
 
 Penjelasan Dari Kodingan Diatas:
 
-- Tujuan: Memutar gambar sebesar 30 derajat.
+- Tujuan:
+- Memutar gambar sebesar 30 derajat.
 - Proses:
 1. Mendapatkan dimensi gambar (tinggi dan lebar).
 2. Menentukan titik pusat rotasi.
@@ -101,7 +103,8 @@ translated = cv2.warpAffine(original, translation_matrix, (w, h))
 
 Penjelasan Dari Kodingan Diatas:
 
-- Tujuan: Mentranslasi (menggeser) gambar.
+- Tujuan:
+- Mentranslasi (menggeser) gambar.
 - Proses:
 1. Menentukan jarak translasi dalam arah x ( tx ) dan y ( ty ).
 2. Membuat matriks translasi.
