@@ -13,9 +13,10 @@
             plt.axis('off')
         plt.show()
 
+
     Penjelasan Dari Kodingan Diatas:
     
-- Parameter:
+- Parameter: 
 1. images : Daftar gambar yang akan ditampilkan.
 2. titles : Daftar judul untuk setiap gambar.
 
@@ -53,6 +54,7 @@ Penjelasan Dari Kodingan Diatas:
 center = (w // 2, h // 2)
 matrix = cv2.getRotationMatrix2D(center, 30, 1.0)
 rotated = cv2.warpAffine(original, matrix, (w, h))
+
 Penjelasan Dari Kodingan Diatas:
 
 - Tujuan: Memutar gambar sebesar 30 derajat.
