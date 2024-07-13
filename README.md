@@ -33,10 +33,7 @@ image = cv2.imread('HAIDIRUMAR.jpg')
 Penjelasan Dari Kodingan Diatas:
 
 - Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
-- Library yang Digunakan: OpenCV ( cv2 ).
-
-(HAIDIRUMAR.png)
-
+- Library yang Digunakan: OpenCV ( cv2 )
 
 ### 3. Menyimpan Citra Asli:
 
