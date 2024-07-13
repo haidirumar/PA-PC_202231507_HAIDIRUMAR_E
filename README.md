@@ -15,7 +15,6 @@
         
 Penjelasan Dari Kodingan Diatas:
 
-- Parameter
 1. images : Daftar gambar yang akan ditampilkan.
 2. titles : Daftar judul untuk setiap gambar.
 
