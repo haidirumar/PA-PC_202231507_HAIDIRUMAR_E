@@ -1,4 +1,4 @@
-# PA-PC_202231506_WahyuJanuarAlfian_E
+# PA-PC_202231507_HAIDIRUMAR_E
 
 ## Penjelasan Project Akhir (UAS) Geometrix Pengolahan Citra Digital
 
@@ -60,7 +60,7 @@ rotated = cv2.warpAffine(original, matrix, (w, h))
 3. Membuat matriks rotasi menggunakan cv2.getRotationMatrix2D 
 4. Menerapkan transformasi rotasi pada gambar menggunakan cv2.warpAffine .
 
-(Rotated.png)
+![App Screenshot](Rotated.png)
 
 
 ### 5. Mengubah Ukuran Gambar:
@@ -80,7 +80,7 @@ cropped = original[int(h * 0.20):int(h * 0.80), int(w * 0.20):int(w * 0.80)]
 
 - Tujuan: Memotong bagian tengah gambar.• Proses: Menggunakan slicing untuk mengambil bagian gambar dari 20% hingga 80% dari tinggi dan lebar asli.
 
-(cropped.png)
+![App Screenshot](Croped.png)
 
 ### 7. Membalik Gambar:
 Penjelasan Kodingan:
@@ -104,7 +104,7 @@ translated = cv2.warpAffine(original, translation_matrix, (w, h))
 2. Membuat matriks translasi.
 3. Menerapkan transformasi translasi menggunakan cv2.warpAffine.
 
-![App Screenshot](Translated.png)
+![App Screenshot](Trasnlated.png)
 
 
 ### 9. Menampilkan Semua Gambar:
@@ -118,4 +118,4 @@ show_images(images, titles)
 - Proses: Memanggil fungsi show_images untuk menampilkan gambar-gambar tersebut dengan
 judul masing-masing.
 
-![App Screenshot](download (1).png)
+![App Screenshot](HASIL.png)
