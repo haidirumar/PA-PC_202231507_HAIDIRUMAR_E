@@ -12,11 +12,10 @@
             plt.title(titles[i])
             plt.axis('off')
         plt.show()
+        
+Penjelasan Dari Kodingan Diatas:
 
-
-    Penjelasan Dari Kodingan Diatas:
-    
-- Parameter: 
+- Parameter
 1. images : Daftar gambar yang akan ditampilkan.
 2. titles : Daftar judul untuk setiap gambar.
 
@@ -127,4 +126,4 @@ judul masing-masing.
 
 ![App Screenshot](HASIL.png)
 
-TERIMKASIH
+                                                                           TERIMAKASIH
