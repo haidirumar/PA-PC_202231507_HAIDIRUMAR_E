@@ -33,7 +33,7 @@ image = cv2.imread('HAIDIRUMAR.jpg')
 - Tujuan: Membaca gambar dari file wahyu.jpg ke dalam variabel image .
 - Library yang Digunakan: OpenCV ( cv2 ).
 
-![App Screenshot](wahyu.jpg)
+![App Screenshot](HAIDIRUMAR.png)
 
 
 ### 3. Menyimpan Citra Asli:
@@ -43,7 +43,7 @@ original = image.copy()
 
 - Tujuan: Membuat salinan dari gambar asli dan menyimpannya ke dalam variabel original .
 
-![App Screenshot](.screenshoot/original.jpg)
+![App Screenshot](Original.png)
 
 ### 4. Rotasi Gambar:
 - Penjelasan:
@@ -60,7 +60,7 @@ rotated = cv2.warpAffine(original, matrix, (w, h))
 3. Membuat matriks rotasi menggunakan cv2.getRotationMatrix2D 
 4. Menerapkan transformasi rotasi pada gambar menggunakan cv2.warpAffine .
 
-![App Screenshot](.screenshoot/otated.jpg)
+(Rotated.png)
 
 
 ### 5. Mengubah Ukuran Gambar:
