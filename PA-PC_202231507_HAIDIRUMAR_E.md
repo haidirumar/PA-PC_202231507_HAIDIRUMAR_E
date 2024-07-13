@@ -126,4 +126,4 @@ judul masing-masing.
 
 ![App Screenshot](HASIL.png)
 
-                                                                           TERIMAKASIH
+                                                                TERIMAKASIH
